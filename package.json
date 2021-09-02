@@ -1,0 +1,24 @@
+{
+  "name": "flickbase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "server":"nodemon server/server.js",
+    "client":"npm start --prefix client",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently  \"npm run server\"  \"npm run client\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yagnesh16697/flickbase.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yagnesh16697/flickbase/issues"
+  },
+  "homepage": "https://github.com/yagnesh16697/flickbase#readme"
+}

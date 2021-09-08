@@ -1,8 +1,6 @@
 /node_modules
-/client/node_modules
 /.pnp
 .pnp.js
-/client/.eslintcache
 .eslintcache
 
 # testing

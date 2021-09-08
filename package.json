@@ -8,10 +8,6 @@
     "client":"npm start --prefix client", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yagnesh16697/flickbase.git"
-  },
   "author": "",
   "license": "ISC",
   "bugs": {
